@@ -1,0 +1,13 @@
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Exception\bin\Debug\net8.0\Journey.Exception.deps.json
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Exception\bin\Debug\net8.0\Journey.Exception.dll
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Exception\bin\Debug\net8.0\Journey.Exception.pdb
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Exception\obj\Debug\net8.0\Journey.Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Exception\obj\Debug\net8.0\Journey.Exception.AssemblyInfoInputs.cache
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Exception\obj\Debug\net8.0\Journey.Exception.AssemblyInfo.cs
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Exception\obj\Debug\net8.0\Journey.Exception.csproj.CoreCompileInputs.cache
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Exception\obj\Debug\net8.0\Journey.Exception.dll
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Exception\obj\Debug\net8.0\refint\Journey.Exception.dll
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Exception\obj\Debug\net8.0\Journey.Exception.pdb
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Exception\obj\Debug\net8.0\ref\Journey.Exception.dll
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Exception\obj\Debug\net8.0\Journey.Exception.ResourceErrorMessage.resources
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Exception\obj\Debug\net8.0\Journey.Exception.csproj.GenerateResource.cache
