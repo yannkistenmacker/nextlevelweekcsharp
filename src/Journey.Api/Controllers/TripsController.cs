@@ -39,6 +39,7 @@ public class TripsController : ControllerBase
 
     // GET
     [HttpGet]
+    [ProducesResponseType(typeof(ResponseTripsJson), StatusCodes.Status200OK)]
     public IActionResult GetAll()
     {
         var useCase = new GetAllTripsUseCase();
