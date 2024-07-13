@@ -1,6 +1,8 @@
 ﻿using Journey.Communication.Responses;
 using Journey.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using Journey.Exception.ExceptionsBase;
+using Journey.Exception;
 
 namespace Journey.Application.UseCases.Trips.GetById;
 
@@ -14,6 +16,11 @@ public class GetTripByIdUseCase
             .Trips
             .Include(trip => trip.Activities)
             .FirstOrDefault(trip => trip.Id == id);
+
+        if(trip is null)
+        {
+            throw new JourneyException(ResourceErrorMessage.TRIP_NOT_FOUND);
+        }
 
         return new ResponseTripJson
         {

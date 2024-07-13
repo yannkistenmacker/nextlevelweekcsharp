@@ -52,12 +52,24 @@ public class TripsController : ControllerBase
     [HttpGet]
     [Route("{id}")]
     [ProducesResponseType(typeof(ResponseTripJson), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
     public IActionResult GetById([FromRoute]Guid id)
     {
-        var useCase = new GetTripByIdUseCase();
+        try
+        {
+            var useCase = new GetTripByIdUseCase();
 
-        var response = useCase.Execute(id);
-        
-        return Ok(response);
+            var response = useCase.Execute(id);
+
+            return Ok(response);
+        }
+        catch (JourneyException ex)
+        {
+            return NotFound(ex.Message);
+        }
+        catch
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError, "Erro desconhecido");
+        }
     }
 }
