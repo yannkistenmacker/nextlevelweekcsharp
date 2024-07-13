@@ -10,3 +10,4 @@ C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Infrastructure\obj\
 C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Infrastructure\obj\Debug\net8.0\Journey.Infrastructure.pdb
 C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Infrastructure\obj\Debug\net8.0\ref\Journey.Infrastructure.dll
 C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Infrastructure\obj\Debug\net8.0\Journey.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Infrastructure\obj\Debug\net8.0\Journey.Infrastructure.sourcelink.json
