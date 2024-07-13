@@ -53,6 +53,6 @@ public class TripsController : ControllerBase
 
         var response = useCase.Execute(id);
         
-        return Ok();
+        return Ok(response);
     }
 }
