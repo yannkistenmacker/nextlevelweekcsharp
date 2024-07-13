@@ -1,4 +1,5 @@
 using Journey.Application.UseCases.Trips.GetAll;
+using Journey.Application.UseCases.Trips.GetById;
 using Journey.Application.UseCases.Trips.Register;
 using Journey.Communication.Requests;
 using Journey.Exception.ExceptionsBase;
@@ -10,7 +11,8 @@ namespace Journey.Api.Controllers;
 [ApiController]
 
 public class TripsController : ControllerBase
-{
+{   
+    // POST
     [HttpPost]
     public IActionResult Register([FromBody] RequestRegisterTripJson request)
     {
@@ -32,6 +34,7 @@ public class TripsController : ControllerBase
         }
     }
 
+    // GET
     [HttpGet]
     public IActionResult GetAll()
     {
@@ -41,14 +44,15 @@ public class TripsController : ControllerBase
 
         return Ok(result);
     }
-
+    // GET ID
     [HttpGet]
     [Route("{id}")]
     public IActionResult GetById([FromRoute]Guid id)
     {
-        var useCase = new GetAllTripsUseCase();
+        var useCase = new GetTripByIdUseCase();
 
         var response = useCase.Execute(id);
+        
         return Ok();
     }
 }

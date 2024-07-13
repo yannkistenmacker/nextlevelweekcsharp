@@ -17,3 +17,4 @@ C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Application\obj\Deb
 C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Application\obj\Debug\net8.0\refint\Journey.Application.dll
 C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Application\obj\Debug\net8.0\Journey.Application.pdb
 C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Application\obj\Debug\net8.0\ref\Journey.Application.dll
+C:\Users\yann.kistenmacker\Documents\NLW\Journey\src\Journey.Application\obj\Debug\net8.0\Journey.Application.sourcelink.json

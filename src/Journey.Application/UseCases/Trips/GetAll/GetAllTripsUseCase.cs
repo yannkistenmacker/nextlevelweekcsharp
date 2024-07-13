@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Journey.Application.UseCases.Trips.GetAll;
 public class GetAllTripsUseCase
 {
-    public ResponseTripsJson Execute(Guid id)
+    public ResponseTripsJson Execute()
     {
         var dbContext = new JourneyDbContext();
 
@@ -21,10 +21,5 @@ public class GetAllTripsUseCase
                 StartDate = trip.StartDate
             }).ToList()
         };
-    }
-
-    public object Execute()
-    {
-        throw new NotImplementedException();
     }
 }
